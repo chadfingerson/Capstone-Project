@@ -1,0 +1,30 @@
+{
+  "name": "EmployeeRecognitionPortal",
+  "version": "0.0.1",
+  "description": "A web based portal that will allow a user to create employee recognition certificates.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chad Fingerson, Jeff Hall, Matt Lietz",
+  "license": "ISC",
+  "dependencies": {
+    "auth0": "^2.18.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.2",
+    "fs": "0.0.1-security",
+    "latex": "0.0.1",
+    "multer": "^1.4.2",
+    "node-latex": "^2.6.0",
+    "nodemailer": "^6.3.0",
+    "passport": "^0.4.0",
+    "passport-auth0": "^1.1.0",
+    "request": "^2.88.0",
+    "sqlite3": "^4.0.9"
+  }
+}

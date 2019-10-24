@@ -1,0 +1,42 @@
+.centerPage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+html, body{
+    height: 100%;
+}
+
+.divContainer{
+    padding: 8px 12px;
+    width: 75%;
+    margin: auto;
+}
+
+.adminButtons{
+    height: 200px;
+}
+
+.py-6{
+    padding-top: 37px !important;
+    padding-bottom: 38px !important;
+}
+
+.py-7{
+    padding-top: 22px !important;
+    padding-bottom: 23px !important;
+}
+
+.tab-content>.tab-pane {
+    height: 1px;
+    overflow: hidden;
+    display: block;
+   visibility: hidden;
+  }
+  .tab-content>.active {
+    height: auto;
+    overflow: auto;
+    visibility: visible;
+  }

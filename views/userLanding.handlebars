@@ -1,0 +1,21 @@
+<div class="centerPage">
+    <a href="/users/create" class="btn btn-success btn-lg" role="button">
+        <span class="oi oi-plus" title="plus" aria-hidden="true"></span> <br>Create Award
+    </a>
+    <a href="/users/view" class="btn btn-success btn-lg" role="button">
+        <span class="oi oi-eye" title="eye" aria-hidden="true"></span> <br>View Awards
+    </a>
+    <a href="/users/update" class="btn btn-success btn-lg" role="button">
+        <span class="oi oi-loop-square" title="loop square" aria-hidden="true"></span> <br>Update Account
+    </a>
+</div>
+
+{{#if notify}}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/js/notify.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.notify("{{notify}}", {className: "success", position: "top center"});
+        });
+    </script>
+{{/if}}

@@ -1,0 +1,42 @@
+<div class="d-flex align-items-center h-100">
+    <div class="w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 offset-sm-3">
+                    <div class="border border-dark rounded-lg p-3">
+                        <h1 class="display-4">Create Award</h1>
+                        <form class="justify-content-center" action="/users/create" method="post">
+                            <div class="form-group">
+                                <label for="name">Awardee Full Name</label>
+                                <input id="name" class="form-control" type="text" name="name" placeholder="John Doe" required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="award">Type of Award</label>
+                                <select class="form-control" name="award" id="award" required="">
+                                    <option value="Employee of the Week">Employee of the Week</option>
+                                    <option value="Employee of the Month">Employee of the Month</option>
+                                    <option value="Employee of the Year">Employee of the Year</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="emaii">Email</label>
+                                <input id="email" class="form-control" type="text" name="email" required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Date of Award</label>
+                                <input type="date" class="form-control" name="awardDate" id="awardDate" required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="department">Department</label>
+                                <input id="department" class="form-control" type="text" name="department" required="">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn btn-primary">Submit Award</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
