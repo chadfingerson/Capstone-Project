@@ -9,7 +9,7 @@
   "author": "Chad Fingerson, Jeff Hall, Matt Lietz",
   "license": "ISC",
   "dependencies": {
-    "auth0": "^2.18.0",
+    "auth0": "^2.27.1",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "dotenv": "^8.0.0",
